@@ -11,6 +11,7 @@ function App() {
       age: "20"
     }
   ];
+
   return (
     <div class="ml-2">
       <h3 class="title is-3">Person List</h3>
@@ -28,15 +29,31 @@ function App() {
             <td>male</td>
             <td>50</td>
           </tr>
+          <tr>
+            <td>Alice</td>
+            <td>male</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Jetsada Jinaka</td>
+            <td>male</td>
+            <td>20</td>
+          </tr>
         </tbody>
       </table>
 
       {/* Code me please! */}
+
       <h3 class="title is-3">ID Counter</h3>
-      <p>YOUR ID HERE</p>
-      <button>-</button>
+      <p>620612144</p>
+      <button onClick={() => 620612144 - 1}>-</button>
       <button>reset</button>
-      <button>+</button>
+      <button onClick={() => 620612144 + 1}>+ </button>
     </div>
   );
 }
